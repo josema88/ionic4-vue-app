@@ -32,8 +32,7 @@ export default {
         }
     },
     async mounted() {
-        
-        const details = await axios.get('http://www.omdbapi.com/?apikey=981288&t=' + this.post.Title)
+        const details = await axios.get('http://www.omdbapi.com/?apikey=981288&i=' + this.post.imdbID);
         this.image = details.data.Poster; 
         this.movieDetails = details.data;
     },
