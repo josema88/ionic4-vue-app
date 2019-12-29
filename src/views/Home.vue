@@ -1,7 +1,7 @@
 <template>
     <div>
         <ion-item>
-            <ion-input :value="title" @input="title = $event.target.value" pattern="search" placeholder="Enter your Movie or series name" @keyup.enter="searchData()"></ion-input>
+            <ion-input :value="title" @input="title = $event.target.value" pattern="search" placeholder="Enter your Movie, series or game name" @keyup.enter="searchData()"></ion-input>
             <ion-icon name="search" size="large" slot="end" @click="searchData()"></ion-icon>
         </ion-item>
         <template v-if="posts.length != 0">
