@@ -5,9 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "ionic:build": "vue-cli-service build",
+    "ionic:serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "@capacitor/android": "^1.5.1",
+    "@capacitor/core": "1.5.1",
     "@ionic/vue": "0.0.4",
     "axios": "^0.18.1",
     "core-js": "^2.6.5",
@@ -15,6 +19,7 @@
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
+    "@capacitor/cli": "1.5.1",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",

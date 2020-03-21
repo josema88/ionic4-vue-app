@@ -1,0 +1,8 @@
+{
+  "appId": "com.jmordonez.entertainmentapp",
+  "appName": "Entertainment App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {}
+}

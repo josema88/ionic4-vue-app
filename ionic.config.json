@@ -1,0 +1,7 @@
+{
+  "name": "entertainment-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
