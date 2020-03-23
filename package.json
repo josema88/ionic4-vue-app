@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^1.5.1",
     "@capacitor/core": "1.5.1",
+    "@capacitor/ios": "^1.5.1",
     "@ionic/vue": "0.0.4",
     "axios": "^0.18.1",
     "core-js": "^2.6.5",
